@@ -1,0 +1,21 @@
+{
+    "name": "yidas/checkout-sdk",
+    "description": "Checkout.com SDK for PHP",
+    "keywords": ["Checkout.com", "api", "php", "sdk", "CKO SDK"],
+    "homepage": "https://github.com/yidas/checkout-sdk-php",
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/yidas/checkout-sdk-php/issues",
+        "source": "https://github.com/yidas/checkout-sdk-php"
+    },
+    "require": {
+        "php": ">=5.6",
+        "checkout/checkout-sdk-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yidas\\": "src/"
+        }
+    }
+}
